@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CSS MoveKit - Animation Showcase</title>
+    <link rel="stylesheet" href="./styles/cssmovekit.css">
+</head>
+
+<body>
+
+    <div class="main-container">
+        <h1>CSS MoveKit - Panda Animation Showcase</h1>
+        <p>Click the buttons below to see different animations applied to the cute panda!</p>
+
+        <!-- Panda Icon Placeholder -->
+        <div class="icon-container">
+            <img src="./svg/icon.svg" alt="Panda Icon" class="panda-icon" id="panda">
+        </div>
+        
+        <!-- Button Group for Animations -->
+        <div class="btn-container" onclick="showAnimation('Rotate')">
+            <img src="./svg/button.svg" alt="Button Icon" class="button-icon">
+        </div>
+
+        <div class="animation-text" id="animationName">Animation Name Here</div>
+    </div>
+
+    <!-- Animation Logic (JS) -->
+    <script src="./cssanimations.js"></script>
+
+</body>
+
+</html>

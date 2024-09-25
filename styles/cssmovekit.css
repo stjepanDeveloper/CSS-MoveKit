@@ -1,0 +1,53 @@
+/* Styles for the webpage */
+body {
+    font-family: 'Roboto', sans-serif;
+    /* Apply the font */
+}
+
+.main-container {
+    justify-content: center
+}
+
+.icon-container {
+    text-align: center;
+    margin: 20px;
+}
+
+.button-icon {
+    width: 300px;
+    height: auto;
+    cursor: pointer;
+    /* Make it look clickable */
+}
+
+.animation-text {
+    font-size: 1.5em;
+    /* Bigger font size for visibility */
+    font-weight: 700;
+    /* Bold text */
+    margin: 10px 0;
+    /* Add some margin */
+}
+
+
+
+/* CSS Animations */
+
+/* Animation keyframes for rotating */
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+/* Class to apply the rotation */
+.rotate {
+    display: inline-block;
+    /* Ensure it takes only the space it needs */
+    animation: rotate 2s linear;
+    /* Rotate animation properties */
+}
